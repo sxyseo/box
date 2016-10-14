@@ -4,4 +4,4 @@
 
 目前还无法正常跑起来，待修复。
 
-演示: http://www.whatled.com/box[http://www.whatled.com/box]
+演示: http://www.whatled.com/box
