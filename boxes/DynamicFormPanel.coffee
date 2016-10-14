@@ -125,8 +125,8 @@ init = (BoxBase) ->
         loadDom.show()
         apiUrl = o.find('.input-api-url').val()
         if ''!= $.trim(apiUrl)
-          $.ajax 'http://10.6.222.62:8080/itsm/request/getFormSerializationByFormIdAndVersion.spr',
-#          $.getJSON 'http://localhost:8080/itsm/static/json/getMenuList.json',
+#          $.ajax 'http://10.6.222.62:8080/itsm/request/getFormSerializationByFormIdAndVersion.spr',
+          $.getJSON 'http://localhost:8080/itsm/static/json/getMenuList.json',
             type:'GET'
             dataType: 'json',
             error: (jqXHR, textStatus, errorThrown) ->
@@ -137,7 +137,7 @@ init = (BoxBase) ->
             success: (result) ->
               loadDom.hide()
               if result?
-                $('.msg-show').notify('接口请求成功!','success',{position:'right',,'success'})
+                $('.msg-show').notify('接口请求成功!','success',{position:'right','success'})
                 console.log result
               else
                 $('.msg-show').notify('接口请求失败!','error')
