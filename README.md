@@ -5,7 +5,7 @@
 
 ## 安装CoffeeScript
 
-### 介绍一下如何在本地安装CoffeeScript，虽然在官网都有，而且也可以在官网找到在线工具，但是为了文章的完整性，在最后还是附上。
+### 介绍一下如何在本地安装CoffeeScript，虽然在官网都有，而且也可以在官网找到在线工具，强烈推荐去官网了解下，为了完整性，在这还是附上。
 
 ### 安装 NodeJS
 `npm install -g coffee-script  //运行安装coffee script`
@@ -33,7 +33,7 @@
 `coffee`
 
 
-# 此项目安装coffee script后，需要在boxes和js文件下编译成js
+## 此项目安装coffee script后，需要在boxes和js文件下编译成js
 
 
 
