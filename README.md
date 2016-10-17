@@ -9,6 +9,7 @@
 
 ### 安装 NodeJS
 `npm install -g coffee-script  //运行安装coffee script`
+### 
 `coffee -o lib/ -cw src/  //这个表示运行自动监控src下面的".coffee"文件，然后以相同的文件名编译输出到lib目录下面，只是文件名后缀为js。`
 
 ## Examples:
