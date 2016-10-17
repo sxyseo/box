@@ -35,6 +35,6 @@
 
 ## 此项目安装coffee script后，需要在boxes和js文件下编译成js
 
-
+###目前还存在问题，未完待续
 
 # 演示: http://www.whatled.com/box
