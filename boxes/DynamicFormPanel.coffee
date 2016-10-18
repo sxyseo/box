@@ -125,7 +125,8 @@ init = (BoxBase) ->
         loadDom.show()
         apiUrl = o.find('.input-api-url').val()
         if ''!= $.trim(apiUrl)
-#          $.ajax 'http://10.6.222.62:8080/itsm/request/getFormSerializationByFormIdAndVersion.spr',
+        #这个接口
+        #$.ajax 'http://10.6.222.62:8080/itsm/request/getFormSerializationByFormIdAndVersion.spr',
           $.getJSON 'http://localhost:8080/itsm/static/json/getMenuList.json',
             type:'GET'
             dataType: 'json',

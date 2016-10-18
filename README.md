@@ -32,9 +32,18 @@
 ### Start the CoffeeScript REPL (Ctrl-D to exit, Ctrl-Vfor multi-line):
 `coffee`
 
+###安装http-server
+`npm install http-server -g`
+
+###怎么使用？
+###可以直接cd到此目录下，然后运行http-server
+`cd D:\box`
+`http-server`
+###或者
+`http-server D:\box`
 
 ## 此项目安装coffee script后，需要在boxes和js文件下编译成js
 
-###目前还存在问题，未完待续
+###目前还存在问题，未完待续(缺接口)
 
 # 演示: http://www.whatled.com/box

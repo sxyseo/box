@@ -1,5 +1,5 @@
 
-console.log "lalalili"
+console.log "DatePicker lalalili"
 
 
 $('.datetimepicker').datetimepicker({

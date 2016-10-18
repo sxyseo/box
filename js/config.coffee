@@ -6,9 +6,9 @@ config =
 #输出html到用户态的时候使用
   outcsspath: '/itsm/static/css/'
   outjspath: '/itsm/static/js/'
-#  rooturl: "http://localhost:8080" #test
+  rooturl: "http://localhost:8080" #test
 #  rooturl: "http://10.38.9.252:8080"
-  rooturl: "http://www.whatled.com/box"
+#  rooturl: "http://www.whatled.com/box"
 #  rooturl: "http://10.6.222.62:8080"
   boxes:[
     ['布局'
