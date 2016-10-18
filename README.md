@@ -38,6 +38,7 @@
 ###怎么使用？
 ###可以直接cd到此目录下，然后运行http-server
 `cd D:\box`
+###然后运行
 `http-server`
 ###或者
 `http-server D:\box`
